@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import cross_val_score
 import seaborn as sns
-train = pd.read_csv('/dataset/train.csv')
-test = pd.read_csv('/dataset/test.csv')
+train = pd.read_csv('dataset/train.csv')
+test = pd.read_csv('dataset/test.csv')
 gender = pd.read_csv('gender_submission.csv')
 #test = test.iloc[:,1:]
 #test = pd.concat([gender, test], axis = 1)
